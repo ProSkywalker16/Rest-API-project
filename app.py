@@ -70,3 +70,7 @@ def get_item_in_store(name):
         if store["name"] == name:
             return {"items": store["items"]}
     return {"message": "Store not found"}, 404
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)

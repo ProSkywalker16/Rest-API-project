@@ -1,2 +1,4 @@
-venv
-.venv
+# Python virtual environments
+venv/
+.env/
+.venv/
